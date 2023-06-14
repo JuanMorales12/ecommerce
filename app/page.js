@@ -1,9 +1,5 @@
-import Image from 'next/image';
+import Layout from '@/components/Layout';
 
 export default function Home() {
-  return (
-    <>
-      <h1 className="text-3xl font-bold"> Next Tailwind Amazona</h1>
-    </>
-  );
+  return <Layout />;
 }
